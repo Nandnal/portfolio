@@ -1,0 +1,68 @@
+h1{
+   
+    color:rgb(6, 0, 1);
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 240px;
+    font-size: 57px;
+    z-index: 1;
+    font-family: serif;
+
+}
+body{
+   background: linear-gradient(rgb(136, 164, 150) 0%, rgb(151, 148, 173) 100%) ;
+}
+#frontend{
+    color:rgb(21, 71, 39);
+ 
+}
+.front{
+    padding-left: 220px;
+}
+.image{
+    opacity: 70%;
+}
+.image:hover{
+    opacity: 110%;
+}
+.about{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 60px;
+    color: rgb(6, 66, 46);
+}
+.para{
+    font-size: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    color: rgb(5, 67, 47);
+}
+.box{
+    display:grid;
+    grid-template-columns: auto auto auto auto ;
+    gap:15px 120px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ite{
+    color:rgb(0, 16, 10);
+    text-align:center;
+    border: 1px solid rgb(166, 223, 166);
+    border-radius: 20px;
+    background-color: rgb(166, 223, 166);
+    height:40px;
+    padding-top: 16px;
+}
+.mails{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin-left: 50px;
+    padding-top: 50px; */
+}
+.calls{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
