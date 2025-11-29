@@ -7,10 +7,24 @@ h1{
     font-size: 57px;
     z-index: 1;
     font-family: serif;
-
 }
+.head{
+     display: flex;
+    gap: 0px 150px;
+    position: absolute;
+    top: 20px;    
+    right: 20px;   
+    z-index:1;
+    font-size: 20px;
+    padding-right: 50px;   
+}
+.profileimage{
+    width: 30px;
+    height: 100px;
+}
+
 body{
-   background: linear-gradient(rgb(136, 164, 150) 0%, rgb(151, 148, 173) 100%) ;
+   background: linear-gradient(rgb(218, 225, 222) 50%, rgb(202, 198, 231) 100%) ;
 }
 #frontend{
     color:rgb(21, 71, 39);
@@ -21,23 +35,27 @@ body{
 }
 .image{
     opacity: 70%;
+    position: relative;
+    z-index: 0;
+    margin-top: 40px;
 }
-.image:hover{
-    opacity: 110%;
-}
+/* .image:hover{
+     opacity: 10%; 
+    filter:blur(7px);
+} */
 .about{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 60px;
-    color: rgb(6, 66, 46);
 }
 .para{
     font-size: 19px;
     padding-left: 50px;
     padding-right: 50px;
-    text-align: justify;
-    color: rgb(5, 67, 47);
+    /* float:left; */
+    text-align: justify; 
+    
 }
 .box{
     display:grid;
@@ -65,4 +83,15 @@ body{
 .calls{
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.socials{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+.info{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap:10px 10px;
+    padding-top: 50px;
+    margin-left: 100px;
 }
