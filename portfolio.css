@@ -10,7 +10,7 @@ h1{
 }
 .head{
      display: flex;
-    gap: 0px 150px;
+    gap: 0px 100px;
     position: absolute;
     top: 20px;    
     right: 20px;   
@@ -19,15 +19,16 @@ h1{
     padding-right: 50px;   
 }
 .profileimage{
-    width: 30px;
-    height: 100px;
+    float: left;
+    padding-top: 100px;
+    padding-left: 100px;
 }
 
 body{
-   background: linear-gradient(rgb(218, 225, 222) 50%, rgb(202, 198, 231) 100%) ;
+   background: linear-gradient(rgb(243, 252, 248) 50%, rgb(223, 221, 235) 80%) ;
 }
 #frontend{
-    color:rgb(21, 71, 39);
+    color:rgb(253, 53, 3);
  
 }
 .front{
@@ -39,24 +40,25 @@ body{
     z-index: 0;
     margin-top: 40px;
 }
-/* .image:hover{
-     opacity: 10%; 
-    filter:blur(7px);
-} */
 .about{
+    text-align: center;
+    font-size: 30px;
+    font-family: serif;
+}
+.para{
+    font-size: 20px;
+    padding-right: 120px;
+    max-width: 900px;
+    float:right; 
+    text-align: justify; 
+    line-height: 1.8;
+}
+.skillbox{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 60px;
-}
-.para{
-    font-size: 19px;
-    padding-left: 50px;
-    padding-right: 50px;
-    /* float:left; */
-    text-align: justify; 
-    
-}
+    padding-top: 300px;
+} 
 .box{
     display:grid;
     grid-template-columns: auto auto auto auto ;
@@ -64,34 +66,46 @@ body{
     font-size: 20px;
     padding-left: 100px;
     padding-right: 100px;
+} 
+.contact{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px;
 }
+
 .ite{
     color:rgb(0, 16, 10);
     text-align:center;
-    border: 1px solid rgb(166, 223, 166);
+    border: 1px solid rgb(177, 251, 177);
     border-radius: 20px;
-    background-color: rgb(166, 223, 166);
+    background-color: rgb(177, 251, 177);
     height:40px;
     padding-top: 16px;
-}
-.mails{
+} 
+ .mails{
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* margin-left: 50px;
-    padding-top: 50px; */
+    /* margin-left: 30px; */
+    /* padding-top: 50px;  */
 }
 .calls{
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+    /* padding-top: 50px;  */
 }
+
 .socials{
     font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 50px;
+    /* padding-top: 50px;  */
 }
 .info{
     display:grid;
     grid-template-columns: auto auto auto auto;
     gap:10px 10px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     margin-left: 100px;
-}
+} 
